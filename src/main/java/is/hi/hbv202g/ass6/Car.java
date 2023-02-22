@@ -6,4 +6,8 @@ class Car {
     Car(String name) {
         this.name = name;
     }
+
+    String getName() {
+        return name;
+    }
 }
